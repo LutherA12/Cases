@@ -1,0 +1,1 @@
+01/01/2025: This is a small pet project of mine from a recent bible study session, I plan to add more information with other questions & arguments. The basic structure will stay the same unless I feel it's more efficiant to change it.

@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: skyblue;
+}
+
+:root {
+  --padding: 5px;
+  --line-height: 13px;
+  --font: 12px;
+  --color: black;
+  --letter-spacing: 1px;
+  --margin-bottom: 20px;
+}
+
+.main-app-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 95vw;
+  height: 100%;
+  margin: auto;
+}
+
+.containers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  list-style: none;
+  padding: var(--padding);
+  line-height: var(--line-height);
+  font-size: var(--font);
+  color: var(--color);
+  letter-spacing: var(--letter-spacing);
+  margin-bottom: var(--margin-bottom);
+}
+
+.headers {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.info-containers-a {
+  width: 95vw;
+}
+
+.container-a {
+  width: 95vw;
+}
+
+.btn-a {
+  cursor: pointer;
+  border-radius: 5px;
+  padding: var(--padding);
+  font-weight: bold;
+  text-decoration: underline;
+}

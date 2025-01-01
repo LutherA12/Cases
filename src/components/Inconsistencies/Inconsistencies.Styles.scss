@@ -1,0 +1,9 @@
+.inconsistent-btns {
+  background-color: #fb8500;
+  transition: all 1s ease-in-out;
+
+  &:hover {
+    background-color: #fb8600a6;
+    padding: 6px;
+  }
+}

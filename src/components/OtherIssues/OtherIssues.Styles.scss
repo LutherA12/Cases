@@ -1,0 +1,9 @@
+.other-btns {
+  background-color: #219ebc;
+  transition: all 1s ease-in-out;
+
+  &:hover {
+    padding: 6px;
+    background-color: #219dbca6;
+  }
+}
