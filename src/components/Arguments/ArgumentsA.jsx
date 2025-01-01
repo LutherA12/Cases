@@ -14,7 +14,7 @@ export default function ArgumentsA() {
       {" "}
       <button
         type="button"
-        className="btn-a arguments-btns"
+        className="buttons-a arguments-btns"
         onClick={btnHandlerA}
       >
         {ArgumentDataA.title}

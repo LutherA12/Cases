@@ -1,11 +1,12 @@
 .premise-container-a {
-  width: 95vw;
-  margin: auto;
+  width: var(--container-width);
+  height: 100%;
 }
 
 .titles {
   padding: 10px 0;
   text-decoration: underline;
+  font-size: 22px;
 }
 
 .buttons-a {
@@ -15,6 +16,7 @@
   border-radius: 5px;
   padding: var(--padding);
   margin: 5px 0;
+  font-size: 18px;
 }
 
 .premise-btns {
@@ -29,8 +31,8 @@
 
 .body-text-a {
   padding: 0px 3px 6px 3px;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: var(--body-font);
+  line-height: var(--line-height);
   -webkit-animation: focus-in-expand-fwd 2s cubic-bezier(0.25, 0.46, 0.45, 0.94)
     both;
   animation: focus-in-expand-fwd 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
