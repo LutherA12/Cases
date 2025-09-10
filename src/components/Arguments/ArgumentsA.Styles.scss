@@ -1,7 +1,9 @@
 .arguments-btns {
   transition: all 1s ease;
+  background-color: #ffb703;
 
   &:hover {
     padding: 6px;
+    background-color: #ffb803a2;
   }
 }
