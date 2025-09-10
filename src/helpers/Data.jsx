@@ -1,22 +1,12 @@
-import {
-  PremesisA,
-  InconsistenciesA,
-  OtherIssuesA,
-  SuspicionsA,
-  SolutionsA,
-} from "../components/componentExports";
+import { PremesisA } from "../components/componentExports";
 
 export const linebreak = <br />;
 
 export const ArgumentDataA = {
-  title: `Arguments A`,
+  title: `Click the Button to Begin`,
   text: (
     <ul>
       <PremesisA />
-      <InconsistenciesA />
-      <OtherIssuesA />
-      <SuspicionsA />
-      <SolutionsA />
     </ul>
   ),
 };

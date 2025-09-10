@@ -16,7 +16,7 @@ body {
   --color: black;
   --letter-spacing: 1px;
   --margin-bottom: 20px;
-  --container-width: 37vw;
+  --container-width: 80vw;
 }
 
 .main-app-container {
@@ -27,6 +27,7 @@ body {
   width: 95vw;
   height: 100%;
   margin: auto;
+  //background-color: green;
 }
 
 .containers {
@@ -39,6 +40,7 @@ body {
   color: var(--color);
   letter-spacing: var(--letter-spacing);
   margin: auto;
+  //background-color: lightblue;
 }
 
 .headers {
